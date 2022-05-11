@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="akropoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akropoli.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_room1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_room1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_room2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_room2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_room3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_room3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_room4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_room4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_room5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_room5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mystery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="object1" xml:space="preserve">
+    <value>Λουτροφόρος
+ 
+
+Δημιουργός: Εργαστήριο αττικό
+Είδος: Αγγείο
+Εποχή: Αρχαϊκή εποχή
+Χρονολόγηση: Γύρω στο 525 π.Χ.
+Υλικό:Πηλός
+
+</value>
+  </data>
+  <data name="object2" xml:space="preserve">
+    <value>Άγαλμα Παπποσιληνού με μικρό Διόνυσο
+
+
+Είδος: Έργο πλαστικής
+Εποχή: Ελληνιστική εποχή
+Χρονολόγηση: 2ος αι. π.Χ.
+Υλικό: Μάρμαρο Πάρου</value>
+  </data>
+  <data name="object3" xml:space="preserve">
+    <value>Άγαλμα Νίκης
+
+
+Είδος: Έργο κοροπλαστικής
+Εποχή: Ρωμαϊκή εποχή
+Χρονολόγηση: 1ος-2ος αι. μ.Χ.
+Υλικό: Πηλός</value>
+  </data>
+  <data name="object4" xml:space="preserve">
+    <value>Πεσσός με τάμα στον Ασκληπιό. Το «Ανάθημα του Πραξία»
+
+Είδος: Έργο πλαστικής
+Εποχή: Κλασική εποχή
+Χρονολόγηση: 350-300 π.Χ.
+Υλικό: Μάρμαρο Πάρου</value>
+  </data>
+  <data name="object5" xml:space="preserve">
+    <value>Πύραυνο
+
+
+Είδος: Οικιακός εξοπλισμός
+Εποχή: Ελληνιστική εποχή
+Χρονολόγηση: 150-86 π.Χ.
+Υλικό:Πηλός</value>
+  </data>
+  <data name="pic_room3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_room3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_room3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_room4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room4_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_room4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room4_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_room4_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room4_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room1" xml:space="preserve">
+    <value>Ο πρώτος εκθεσιακός χώρος, στο ισόγειο του Μουσείου, περιλαμβάνει ευρήματα από τις κλιτύς της Ακρόπολης. Η περιοχή, αδιάσπαστο τμήμα της τοπογραφίας και της ιστορίας του βράχου, φιλοξενεί μικρά και μεγάλα ιερά, παλαιές και νεότερες λατρείες, χώρους θεαμάτων και, λίγο χαμηλότερα, κατοικίες ιδιωτών.
+
+Το επικλινές δάπεδο της αίθουσας παραπέμπει στη διαδρομή που ακολουθεί ο επισκέπτης της αρχαιότητας καθώς ανηφορίζει στον βράχο της Ακρόπολης, ενώ οι διαφανείς γυάλινες θυρίδες προσφέρουν στον σημερινό επισκέπτη οπτική επαφή με την αρχαιολογική ανασκαφή που βρίσκεται ακριβώς από κάτω</value>
+  </data>
+  <data name="room1_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room1_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room1_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room1_sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="room2" xml:space="preserve">
+    <value>Στα αριστερά της μεγάλης κλίμακας που οδηγεί από το ισόγειο στον πρώτο όροφο παρουσιάζονται ευρήματα συνδεδεμένα με το απώτερο παρελθόν της Ακρόπολης. Είναι αντικείμενα που σηματοδοτούν την εξέλιξη του βράχου από οχυρό και έδρα του τοπικού ηγεμόνα σε τόπο ιερό, αφιερωμένο στη λατρεία της Αθηνάς και άλλων θεών</value>
+  </data>
+  <data name="room2_1" xml:space="preserve">
+    <value>Σε τέσσερις συνεχόμενες προθήκες παρουσιάζονται ευρήματα από την Ακρόπολη της Μυκηναϊκής εποχής. Τον 13ο αι. π.Χ. η Ακρόπολη, οχυρωμένη με ισχυρά τείχη, αποτελεί την έδρα του τοπικού ηγεμόνα και τον τόπο κατοικίας της άρχουσας τάξης. Ο βασιλιάς ασκεί πολιτική και θρησκευτική εξουσία στις διάσπαρτες κοινότητες της Αττικής, που σύμφωνα με την αρχαία παράδοση, έχουν τώρα συνενωθεί διοικητικά, έχουν κοινούς θεούς, κοινό λατρευτικό κέντρο στην Ακρόπολη και κοινή γιορτή, τα Παναθήναια, προς τιμή της πολιούχου θεάς Αθηνάς.
+
+</value>
+  </data>
+  <data name="room2_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_1_1_text" xml:space="preserve">
+    <value>Σφυρί
+
+Βρέθηκε το 1888 στα ανατολικά του Παρθενώνα και αποτελεί μέρος του λεγόμενου «θησαυρού του χαλκουργού». Η μια άκρη του καταλήγει σε επίπεδη επιφάνεια, η άλλη σε πεπλατυσμένη αιχμή ενώ στη μέση διαμορφώνεται ελλειψοειδής οπή για την ένθεση της ξύλινης λαβής. Οι σφύρες (σφυριά) αποτελούν συνηθισμένα εργαλεία χαλκουργών, ξυλουργών και γενικότερα τεχνιτών.</value>
+  </data>
+  <data name="room2_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_1_2_text" xml:space="preserve">
+    <value>Αμφορέας
+
+Αμφορέας, συγκολλημένος από πολλά θραύσματα και συμπληρωμένος. Βρέθηκε το 1937-1938 στην ανασκαφή της «μυκηναϊκής κρήνης» στη βόρεια κλιτύ (πλαγιά) της Ακρόπολης.
+
+Έχει δισκόμορφη βάση, σφαιρικό σώμα, κυλινδρικό λαιμό, χείλος στραμμένο προς τα έξω και κάθετες λαβές. Είναι διακοσμημένος με καστανόμαυρες οριζόντιες και κάθετες ταινίες. Πιθανότατα, χρησίμευε στην άντληση νερού από την πηγή και στη μεταφορά του.</value>
+  </data>
+  <data name="room2_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_1_3_text" xml:space="preserve">
+    <value>Αλάβαστρο
+
+Σχεδόν ακέραιο αλάβαστρο. Βρέθηκε πιθανότατα το 1873-1874 ανατολικά του Παρθενώνα. Έχει στρογγυλεμένη βάση, σφαιρικό σώμα, ψηλό χείλος και τρεις όρθιες λαβές που κολλούν στα τοιχώματα, η μία σπασμένη. Το αγγείο είναι διακοσμημένο με κυματιστές γραμμές καστανοκόκκινου χρώματος.</value>
+  </data>
+  <data name="room2_1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_1_4_text" xml:space="preserve">
+    <value>Κεφάλι ειδωλίου
+
+Κεφάλι ειδωλίου, ίσως Σφίγγας. Βρέθηκε το 1969 στην περιοχή του ιερού του Απόλλωνα υπ’ Άκραις, στη βόρεια πλαγιά της Ακρόπολης.
+
+Διατηρείται μόνο το πρόσωπο, το οποίο στο πίσω μέρος είναι κοίλο. Το σχήμα του είναι τριγωνικό, το μέτωπο χαμηλό, τα μάτια λοξά, τα φρύδια τονισμένα, η μύτη μεγάλη και μακριά και το στόμα στενό και μισάνοιχτο. Το πηγούνι είναι τριγωνικό, ιδιαίτερα μακρύ, και ίσως απολήγει σε γένι. Ολόκληρη η επιφάνεια του προσώπου καλύπτεται με κιτρινωπό επίχρισμα και τα χαρακτηριστικά τονίζονται με καστανοκόκκινο χρώμα.</value>
+  </data>
+  <data name="room2_1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_1_5_text" xml:space="preserve">
+    <value>Σφραγιδόλιθος
+
+Σφραγιδόλιθος, σπασμένος στην περιφέρεια. Βρέθηκε στην Ακρόπολη. Στη σφραγιστική επιφάνεια αποδίδονται τέσσερις κύκλοι με βάθυνση στο εσωτερικό τους. Διακρίνεται η διαμπερής οπή, από την οποία περνούσε το κορδόνι για την ανάρτηση του σφραγιδόλιθου. Η πίσω όψη είναι ακόσμητη.</value>
+  </data>
+  <data name="room2_1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_1_6_text" xml:space="preserve">
+    <value>Πέλεκυς
+
+Διπλός ή αμφίστομος πέλεκυς (τσεκούρι). Βρέθηκε το 1888 στα ανατολικά του Παρθενώνα και αποτελεί μέρος του λεγόμενου «θησαυρού του χαλκουργού». Στα δύο άκρα απολήγει σε κόψεις-λεπίδες ενώ στη μέση έχει μια ελλειψοειδή οπή στειλέωσης, για την ένθεση της ξύλινης λαβής. Στις ακμές των κόψεων διακρίνονται φθορές, που ίσως οφείλονται στη χρήση του αντικειμένου. Οι διπλοί πελέκεις χρησιμοποιούνταν ως εργαλεία κοπής στην υλοτομία και ως επιθετικά όπλα στο κυνήγι.</value>
+  </data>
+  <data name="room2_1_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_1_sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="room2_2" xml:space="preserve">
+    <value>Το χάλκινο έλασμα με την παράσταση της μυθικής Γοργούς, που παρουσιάζεται σε ξεχωριστή προθήκη, σηματοδοτεί τον μετασχηματισμό της Ακρόπολης από ανακτορικό κέντρο σε ιερό. 
+
+Μέχρι τα τέλη του 8ου αι. π.Χ. ο θεσμός της κληρονομικής βασιλείας έχει αποδυναμωθεί και η εξουσία έχει μεταβιβαστεί σε μια μικρή ομάδα αριστοκρατών. Οι νέοι άρχοντες μεταφέρουν το διοικητικό κέντρο στη βορειοανατολική πλαγιά του βράχου, και έτσι η κορυφή της Ακρόπολης μετατρέπεται σε τόπο λατρείας των θεών. Τον 8ο και τον 7ο αι. π.Χ. στη θέση του ανακτόρου υπάρχει ένας μικρός πλινθόκτιστος ναός, αφιερωμένος στην προστάτιδα της πόλης Αθηνά Πολιάδα και στον μυθικό βασιλιά Ερεχθέα. Στη διακόσμηση του ναού αυτού φαίνεται ότι ανήκει το χάλκινο έλασμα της Γοργούς. </value>
+  </data>
+  <data name="room2_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_2_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_2_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room2_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room2_sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="room2_θεμ_εν" xml:space="preserve">
+    <value>Η αίθουσα χωρίζεται σε 2 θεματικές ενότητες.Για περισσότερες πληροφορίες επέλεξε την αντίστοιχη θεματική ενότητα που σε ενδιαφέρει και κάνε κλικ στο κουμπί "Υποβολή"</value>
+  </data>
+  <data name="room3" xml:space="preserve">
+    <value>Το ανατολικό και νότιο τμήμα του πρώτου ορόφου είναι αφιερωμένο στην Ακρόπολη της Αρχαϊκής εποχής (700-480 π.Χ.). Μια Ακρόπολη διαφορετική από αυτή των κλασικών χρόνων που γνωρίζουμε σήμερα, αλλά εξίσου μεγαλοπρεπή, με εντυπωσιακούς ναούς και πολυάριθμα αφιερώματα. 
+
+Το φυσικό φως που εισέρχεται από τα μεγάλα υαλοστάσια και τους φεγγίτες της οροφής δημιουργεί την αίσθηση του υπαίθριου χώρου και παραπέμπει στους εξωτερικούς χώρους του ιερού της Ακρόπολης, όπου ήταν στημένα τα γλυπτά στην αρχαιότητα.</value>
+  </data>
+  <data name="room3_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_1_1_text" xml:space="preserve">
+    <value>Έχει αποκατασταθεί από θραύσματα, που βρέθηκαν το 1882 νοτιοανατολικά του Παρθενώνα. Πιθανότατα κοσμούσε ένα από τα οικήματα της αρχαϊκής Ακρόπολης.
+Θέμα του αετώματος είναι ένας από τους άθλους του Ηρακλή, η πάλη του με τη Λερναία Ύδρα. Το μυθικό τέρας, από το σώμα του οποίου φυτρώνουν εννέα φίδια με υψωμένα κεφάλια, καταλαμβάνει το δεξί τμήμα του αετώματος. Στα αριστερά του ο Ηρακλής, φορώντας θώρακα και έχοντας κρεμασμένο στον δεξί του ώμο τον τελαμώνα, προσπαθεί να το καταβάλει με το ρόπαλο που κρατά στο υψωμένο χέρι. Πίσω από τον ήρωα, πάνω σε άρμα, περιμένει ο Ιόλαος, κρατώντας τα ηνία των αλόγων. 
+</value>
+  </data>
+  <data name="room3_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_1_2_text" xml:space="preserve">
+    <value>Αποσπασματικά σωζόμενη πλάκα με παράσταση ηνίοχου. Βρέθηκε το 1859 κοντά στα Προπύλαια και έχει συμπληρωθεί.
+
+Ο ηνίοχος ετοιμάζεται να ανέβει στο τέθριππο πατώντας ήδη το αριστερό πόδι πάνω στον δίφρο του άρματος. Φορά μακρύ χιτώνα και ιμάτιο που πέφτει στους ώμους. Τα μαλλιά του αναδιπλώνονται στον αυχένα και δένονται σε κότσο περνώντας μέσα από ταινία. Τα χέρια του είναι τεντωμένα μπροστά και κρατούν τα ηνία των αλόγων. Από τα άλογα έχουν σκαλιστεί σε αυτόν τον λίθο οι ουρές και τα πίσω σκέλη, ενώ τα υπόλοιπα θα ήταν λαξευμένα στην προηγούμενη πλάκα. 
+
+</value>
+  </data>
+  <data name="room3_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_1_3_text" xml:space="preserve">
+    <value>Σύμπλεγμα που αποδίδεται στη διακόσμηση του ενός από τα δύο αετώματα του Εκατόμπεδου, πιθανότατα του ανατολικού. Βρέθηκε σε θραύσματα το 1888 στα ανατολικά και τα νοτιανατολικά του Παρθενώνα και είναι συμπληρωμένο σε μεγάλο βαθμό.
+
+Το σύμπλεγμα εικονίζει λέαινα να κατασπαράζει μοσχαράκι, θέμα ιδιαίτερα αγαπητό στη διακόσμηση των πρώιμων αρχαϊκών ναών με καταβολές από την τέχνη της Εγγύς Ανατολής. Η ασυνήθιστη λέαινα, συνδυάζει θηλυκά και αρσενικά χαρακτηριστικά, δηλαδή μαστούς και πλούσια χαίτη.</value>
+  </data>
+  <data name="room3_1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_1_4_text" xml:space="preserve">
+    <value>Τμήμα θριγκού από τη γωνία ενός από τα μικρότερα αρχαϊκά οικοδομήματα της Ακρόπολης. Σώζεται αποσπασματικά. Αποτελείται από πώρινα μέλη όπως το επιστύλιο, τα τρίγλυφα, τις μετόπες, το γείσο καθώς και τη μαρμάρινη σίμη.
+Το τμήμα του επιστυλίου που σώζεται φέρει επιμήκη ταινία στην άνω απόληξή του καθώς και μικρούς κανόνες. Κάθε κανόνας διακοσμείται με έξι κυλινδρικές σταγόνες, που αποδίδουν πιθανόν τα καρφιά. Τα τρίγλυφα εναλλάσσονται με τις, άλλοτε διακοσμημένες με ανάγλυφες ή γραπτές παραστάσεις, μετόπες. Πάνω από αυτά προεξέχει το γείσο με ίχνη γραπτής διακόσμησης και προμόχθους στην κάτω πλευρά του. </value>
+  </data>
+  <data name="room3_1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_1_5_text" xml:space="preserve">
+    <value>Τμήμα σίμης από τη δεξιά γωνία της στέγης του λεγόμενου «Αρχαίου Ναού». Η οριζόντια πλευρά απολήγει σε λεοντοκεφαλή με πλούσιες ανάγλυφες λεπτομέρειες τονισμένες με χρώματα: μπλε για τη χαίτη, κίτρινο για τα αυτιά, καστανό για τις ίριδες και τις κόρες των ματιών και κόκκινο για το στόμα, από το οποίο έρρεε το νερό της βροχής. Στα αριστερά σώζεται μέρος ζωγραφιστού ανθεμίου με μπλε πέταλα. Το επικλινές μέτωπο της σίμης, που βρισκόταν πάνω από το αέτωμα, ήταν διακοσμημένο με σχέδιο ανθεμίων, ελίκων και ανθέων λωτού, τονισμένο με κόκκινο και μπλε χρώμα, από το οποίο σήμερα διακρίνονται μόνο τα αποτυπώματα.</value>
+  </data>
+  <data name="room3_1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_1_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_1_6_text" xml:space="preserve">
+    <value>Ακροκέραμο με ανάγλυφο γοργόνειο το οποίο έχει συγκολληθεί από δύο θραύσματα. Βρέθηκε το 1835 νοτιοδυτικά του Παρθενώνα.
+
+Στο πρόσωπο της Μέδουσας κυριαρχούν τα μεγάλα μάτια, το ρυτιδιασμένο μέτωπο και το πλατύ στόμα από το οποίο προεξέχουν οι χαυλιόδοντες και η γλώσσα. Τα αποτροπαϊκά χαρακτηριστικά τονίζονταν με χρώματα από τα οποία διακρίνονται ίχνη μαύρου και κόκκινου. Στα αυτιά φορά κυκλικά σκουλαρίκια και στον λαιμό τυλίγονται φίδια.</value>
+  </data>
+  <data name="room3_1_text" xml:space="preserve">
+    <value>Ο πρώτος μνημειακός ναός της Ακρόπολης ιδρύεται στη θέση του μικρού πλινθόκτιστου ναού της Αθηνάς Παρθένου. Οι αρχαιολόγοι τον ονομάζουν «αρχαϊκό Παρθενώνα» και πιθανότατα πρόκειται για τον Εκατόμπεδο που αναφέρουν οι αρχαίες πηγές. Πότε ακριβώς κατασκευάζεται δεν είναι γνωστό, πολλοί ωστόσο συνδέουν την οικοδόμησή του με την καθιέρωση της γιορτής των Μεγάλων Παναθηναίων, το 566/5 π.Χ. Παρότι τα θεμέλια του Εκατομπέδου έχουν εξαφανιστεί, την ύπαρξή του μαρτυρούν τα μεγάλα γλυπτά και τα αρχιτεκτονικά μέλη που αποκαλύφθηκαν κοντά στον κλασικό Παρθενώνα και σήμερα παρουσιάζονται στην αρχή της αίθουσας. 
+
+Μια σειρά μικρότερων κτηρίων της ίδια περίπου εποχής, όπου φυλάσσονταν πιθανώς πολύτιμα αφιερώματα, δεν άφησαν τα ίχνη τους στον χώρο. Από αυτά προέρχονται, ωστόσο, τέσσερα πολύχρωμα αετώματα που εκτίθενται σήμερα στο Μουσείο.
+
+</value>
+  </data>
+  <data name="room3_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_2_1_text" xml:space="preserve">
+    <value>ίνακας διακοσμημένος με τη μελανόμορφη τεχνική από τις ανασκαφές της Ακρόπολης. Λείπει τμήμα από τη δεξιά πλευρά.
+
+Μία γυναίκα καθισμένη σε δίφρο (σκαμνί), ασχολείται με κάποια οικιακή εργασία πάνω στο τραπέζι που έχει μπροστά της. Ίσως υφαίνει σε μικρό φορητό αργαλειό ή ζυμώνει. Φορά πλούσια διακοσμημένο πέπλο και κόκκινη ταινία στα μαλλιά. Πίσω της ένα γυμνό κορίτσι παίζει καθισμένο στο πάτωμα. Το εσωτερικό της οικίας δηλώνεται από τα έπιπλα και τα αντικείμενα που είναι τοποθετημένα σε ράφι ή κρεμασμένα στον τοίχο. Η γυναικεία σάρκα αποδίδεται με λευκό επίθετο χρώμα. Στο πάνω μέρος του πίνακα υπάρχει οπή ανάρτησης, ενώ μία δεύτερη θα πρέπει να υπήρχε στο κομμάτι που λείπει.</value>
+  </data>
+  <data name="room3_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_2_2_text" xml:space="preserve">
+    <value>Ειδώλιο Αθηνάς από τις ανασκαφές της Ακρόπολης. Η θεά φορά μακρύ χιτώνα με μανίκια και από πάνω ιμάτιο περασμένο λοξά κάτω από την αριστερή μασχάλη. Τα χέρια της είναι λυγισμένα με το αριστερό κοντά στον κορμό και το δεξί προτεταμένο. Το πρόσωπό της είναι τετράγωνο, με μεγάλα αμυγδαλόσχημα μάτια. Στο κεφάλι φοράει κράνος κάτω από το οποίο τα μαλλιά πέφτουν σε τρεις πλεξούδες στον δεξιό ώμο. Στην επιφάνεια του ειδωλίου διατηρούνται ίχνη λευκού επιχρίσματος.</value>
+  </data>
+  <data name="room3_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_2_3_text" xml:space="preserve">
+    <value>Αποσπασματικά σωζόμενο αναθηματικό ανάγλυφο με παράσταση κεραμέα. Βρέθηκε το 1887 ανατολικά του Ερεχθείου, συγκολλήθηκε και συμπληρώθηκε.
+
+Ο άνδρας κάθεται σε δίφρο (σκαμνί) φορώντας ιμάτιο που αφήνει γυμνό το επάνω μέρος του σώματός του. Πρόκειται για αγγειοπλάστη που κρατά στο αριστερό χέρι δύο από τις κύλικες που έφτιαξε για να τις αφιερώσει στην Αθηνά Εργάνη. Ίχνη μπλε, κόκκινου και κίτρινου χρώματος διακρίνονται στο κάθισμα, το ιμάτιο και στο πρόσωπο της μορφής καθώς και στο βάθος του αναγλύφου.</value>
+  </data>
+  <data name="room3_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_2_4_text" xml:space="preserve">
+    <value>Πινάκιο (πιάτο) διακοσμημένο με τη μελανόμορφη τεχνική. Έχει συγκολληθεί από θραύσματα και συμπληρωθεί.
+
+Στον πυθμένα του αγγείου εικονίζεται η πάλη του Θησέα με τον Μινώταυρο, την οποία παρακολουθεί η Αριάδνη. Ο Θησέας φορά περίζωμα που καλύπτει τους μηρούς του και στεφάνι στο κεφάλι. Καρφώνει με το ξίφος του το τέρας στον λαιμό, από όπου αναβλύζει αίμα. Ο Μινώταυρος, ο οποίος στις σφιγμένες γροθιές του κρατάει πέτρες, προσπαθεί να ξεφύγει,και η Αριάδνη χειρονομεί δείχνοντας την αναστάτωσή της.</value>
+  </data>
+  <data name="room3_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_2_5_text" xml:space="preserve">
+    <value>Η Κόρη, γνωστή ως η «Κόρη με το ρόδι», βρέθηκε το 1887 στα ανατολικά του Ερεχθείου. Είναι ντυμένη με τρία διαδοχικά ενδύματα. Από μέσα φορά μακρύ χιτώνα, από τον οποίο είναι ορατό μόνο το δεξί μανίκι, πιασμένο με μικρά ανάγλυφα κουμπιά. Από πάνω φορά πέπλο, στολισμένο με κόκκινο μαίανδρο, σταυρούς και άστρα, δεμένο στη μέση με πράσινη ζώνη. Η ενδυμασία ολοκληρώνεται με μακρύ επίβλημα, το οποίο πέφτει συμμετρικά από τους ώμους και διακοσμείται στην παρυφή με μαίανδρο, σταυρούς και φούντες στις άκρες.</value>
+  </data>
+  <data name="room3_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_2_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_2_6_text" xml:space="preserve">
+    <value>Έλασμα με παράσταση γοργονείου το οποίο βρέθηκε νότια του Παρθενώνα. Το πρόσωπο της Μέδουσας Γοργούς πλαισιώνουν τα μαλλιά της με δώδεκα τούφες που απολήγουν σε φίδια. Το στρογγυλό αυτό γοργόνειο πρέπει μάλλον να χρησίμευε ως επίσημα (έμβλημα) ασπίδας αν και θα μπορούσε να προέρχεται και από τη διακόσμηση ενός μεγάλου χάλκινου αγγείου.
+
+Ως θέμα συνδέεται άμεσα με την κύρια θεότητα της Ακρόπολης την Αθηνά, καθώς ο Περσέας, όταν σκότωσε τη Μέδουσα Γοργώ, χάρισε το κομμένο κεφάλι της στη θεά η οποία διακόσμησε με αυτό την αιγίδα της.</value>
+  </data>
+  <data name="room3_2_text" xml:space="preserve">
+    <value>Η οικοδομική αναδιοργάνωση της Ακρόπολης στη διάρκεια του 6ου αι. π.Χ. και η ανάδειξή της σε τόπο πολιτικής και κοινωνικής προβολής στέκεται η αιτία να πλημμυρίσει ο χώρος από τα αφιερώματα των πιστών. Το είδος, το μέγεθος και το υλικό κατασκευής των αφιερωμάτων καθορίζονται από την οικονομική δυνατότητα, την κοινωνική θέση και την ενασχόληση του προσώπου που τα αφιερώνει. Τα πανάκριβα μαρμάρινα γλυπτά, τα δαπανηρά χάλκινα έργα και τα πολυτελή αγγεία είναι αφιερώματα αριστοκρατών ή πλούσιων βιοτεχνών, ενώ τα ειδώλια, οι πίνακες και οι προτομές από πηλό είναι προσφορές των οικονομικά ασθενέστερων.
+Πολλές φορές, στις βάσεις ή πάνω στα ίδια τα αφιερώματα είναι χαραγμένες επιγραφές με το όνομα, κάποτε το πατρώνυμο ή και το επάγγελμα του αναθέτη. Άλλοτε πάλι οι καλλιτέχνες χαράζουν και τα δικά τους ονόματα πάνω στα έργα που κατασκευάζουν. Πολλά από τα έργα αυτά δεν είναι αττικά, κάτι που δείχνει τον μεγάλο αριθμό μετοίκων και αλλοδαπών που εργάζονται στην ευημερούσα Αθήνα του 6ου αι. π.Χ.</value>
+  </data>
+  <data name="room3_3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_3_1_text" xml:space="preserve">
+    <value>Το πρόσωπο είναι ωοειδές, τα μάτια μεγάλα και τα βλέφαρα έντονα. Τα μαλλιά είναι χωρισμένα στη μέση και μαζεμένα σε σάκκο. Ο λαιμός είναι ψηλός και το κάτω τμήμα του έχει διαμορφωθεί κατάλληλα για την ένθεση του κεφαλιού σε σώμα ειδωλίου ή σε βάση προτομής. Διατηρούνται ίχνη λευκού επιχρίσματος.</value>
+  </data>
+  <data name="room3_3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_3_2_text" xml:space="preserve">
+    <value>Βρέθηκε πίσω από το Ερέχθειο, πιθανότατα γύρω στο 1882, και είναι συγκολλημένο από τρία θραύσματα.
+
+Παριστάνει την Αθηνά και έναν καθιστό άνδρα. Η θεά φοράει μακρύ χιτώνα και ιμάτιο, αιγίδα με φίδια στις άκρες και σανδάλια. Στο υψωμένο αριστερό χέρι θα κρατούσε δόρυ, ζωγραφισμένο άλλοτε στο βάθος του αναγλύφου. Ο άνδρας είναι καθισμένος σε κλισμό (καρέκλα) με γυμνό το πάνω μέρος του σώματος. Μπροστά του έχει έναν πάγκο ή τραπέζι, πάνω στον οποίο είναι ακουμπισμένο κάποιο αντικείμενο, και με το δεξί χέρι μοιάζει να δίνει στη θεά κάτι που δεν διακρίνεται. </value>
+  </data>
+  <data name="room3_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_3_3_text" xml:space="preserve">
+    <value>Βρέθηκε σε δύο τμήματα το 1888 στα νότια του Παρθενώνα και είναι ένα από τα σημαντικότερα έργα του ονομαζόμενου «αυστηρού ρυθμού».
+
+Εικονίζει την Αθηνά μπροστά σε μία χαμηλή στήλη. Η θεά φοράει πέπλο που σφίγγεται στη μέση με ζώνη και κράνος κορινθιακού τύπου. Με το ένα χέρι στηρίζεται στο δόρυ της και το άλλο είναι ακουμπισμένο στον γοφό. Τα πόδια της είναι γυμνά. Το βάρος του σώματος πέφτει στο δεξί πόδι ενώ το αριστερό, λυγισμένο προς τα πίσω, μόλις που πατά με τα δάχτυλα στο έδαφος. Έχει το κεφάλι σκυμμένο και το βλέμμα στραμμένο προς τη χαμηλή στήλη που βρίσκεται μπροστά της.</value>
+  </data>
+  <data name="room3_3_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_3_4_text" xml:space="preserve">
+    <value>Το κεφάλι προέρχεται από άγαλμα εφήβου, πιθανώς αθλητή. Βρέθηκε το 1887 στην περιοχή του ιερού του Πανδίονα, στη διάρκεια αρχαιολογικών ανασκαφών για την κατασκευή του παλαιού Μουσείου της Ακρόπολης. Η σύγχρονη ονομασία «ξανθός έφηβος» οφείλεται στα υπολείμματα χρυσοκίτρινου χρώματος που διατηρούσε στα μαλλιά όταν βρέθηκε. Επίσης διατηρούσε ίχνη κόκκινου χρώματος στα χείλη και κιτρινωπού στα μάτια.</value>
+  </data>
+  <data name="room3_3_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_3_5_text" xml:space="preserve">
+    <value>Κεφάλι αγάλματος σχεδόν φυσικού μεγέθους. Βρέθηκε το 1886 στα βορειοανατολικά των Προπυλαίων.
+
+Εικονίζει γενειοφόρο οπλίτη με φυσιοκρατικά χαρακτηριστικά. Το πάνω και πίσω μέρος του κεφαλιού είναι λείο και φέρει οπές και μικρά στελέχη για τη στερέωση πρόσθετου κράνους. Τα μαλλιά στο μέτωπο σχηματίζουν κοντές μπούκλες, το γένι δηλώνεται με κυματιστές εγχαράξεις και τα φρύδια αποδίδονται ανάγλυφα. Ο σκληρός χιτώνας των ματιών είναι κατασκευασμένος από υαλώδες υλικό ενώ η ίριδα των ματιών έχει χαθεί.</value>
+  </data>
+  <data name="room3_3_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_3_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room3_3_6_text" xml:space="preserve">
+    <value>Κεφάλι από άγαλμα μικρού μεγέθους. Βρέθηκε το 1866 στη διάρκεια εργασιών για τη θεμελίωση του παλαιού Μουσείου, της Ακρόπολης.
+
+Παριστάνεται αγένειος νέος, πιθανότατα αθλητής. Έχει μακριά μαλλιά που τυλίγονται γύρω από δακτύλιο και αναδιπλώνονται πίσω σχηματίζοντας χαλαρό κότσο. Ο σκληρός χιτώνας των ματιών είναι κατασκευασμένος από υαλώδες υλικό ενώ η ίριδα των ματιών έχει χαθεί. Θεωρείται έργο του ονομαζόμενου «αυστηρού ρυθμού».</value>
+  </data>
+  <data name="room3_3_text" xml:space="preserve">
+    <value>Η εμπειρία των Περσικών Πολέμων φέρνει αλλαγές στην κοινωνία, τη σκέψη και την τέχνη της Αθήνας. Μετά το 480 π.Χ. οι καλλιτέχνες αναζητούν νέους τρόπους έκφρασης, ικανούς να αποδώσουν το ηρωικό πνεύμα που επικρατεί. Τα νέα έργα απεικονίζουν όχι μόνο θεούς αλλά και θνητούς, ιδιαίτερα αθλητές.
+
+Οι γλύπτες μελετούν τη γλώσσα του σώματος και προσπαθούν να αναδείξουν τον εσωτερικό κόσμο του ανθρώπου. Στον άκαμπτο κορμό των αρχαϊκών αγαλμάτων αντιπαραθέτουν μια πιο φυσιοκρατική στάση. Μετατοπίζουν το βάρος του σώματος στο ένα σκέλος, και έτσι μεταφέρουν και διαχέουν την κίνηση και στα υπόλοιπα μέλη. Με τον τρόπο αυτό δίνουν περισσότερη ζωντάνια, δυναμισμό και πλαστικότητα στις δημιουργίες τους.
+</value>
+  </data>
+  <data name="room3_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room3_sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="room4" xml:space="preserve">
+    <value>Στη δυτική πλευρά του πρώτου ορόφου παρουσιάζονται έργα από τα άλλα μνημεία του οικοδομικού προγράμματος του Περικλή, ορισμένα από τα οποία ολοκληρώνονται μετά τον θάνατό του. Η έκθεση περιλαμβάνει γλυπτά και αρχιτεκτονικά μέλη από τα Προπύλαια, τον ναό της Αθηνάς Νίκης και το Ερέχθειο.</value>
+  </data>
+  <data name="room4_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room4_1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room4_1_text" xml:space="preserve">
+    <value>Τα Προπύλαια, η μνημειακή είσοδος στο ιερό της Ακρόπολης, χτίζονται μεταξύ του 437 και του 431 π.Χ., σε σχέδια του Μνησικλή, στη θέση αρχαιότερης πύλης. Το αρχικό σχέδιο δεν ολοκληρώνεται ποτέ, καθώς η κατασκευή σταματά τις παραμονές του Πελοποννησιακού Πολέμου, το 431 π.Χ.
+
+Το οικοδόμημα αποτελείται από μία κεντρική είσοδο και δύο πλευρικές πτέρυγες. Την κεντρική είσοδο πλαισιώνουν τρία ζεύγη κιόνων ιωνικού ρυθμού, με εξαιρετικής τέχνης κιονόκρανα. Η είσοδος διαθέτει πέντε θύρες, η μεσαία από τις οποίες είναι πλατύτερη για να διευκολύνεται η διέλευση της πομπής των Παναθηναίων και των ζώων της θυσίας.</value>
+  </data>
+  <data name="room4_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room4_2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room4_2_text" xml:space="preserve">
+    <value>Ο ναός της Αθηνάς Νίκης κατασκευάζεται ανάμεσα στο 426 και το 421 π.Χ. πάνω στον πύργο της νοτιοδυτικής άκρης της Ακρόπολης, σύμφωνα με τα σχέδια του αρχιτέκτονα Καλλικράτη. Αντικαθιστά αρχαιότερους ναούς που τα κατάλοιπά τους διατηρούνται στο εσωτερικό του πύργου.
+
+Ο ναός είναι ιωνικού ρυθμού και έχει ανάγλυφη ζωφόρο με διαφορετικές παραστάσεις σε κάθε πλευρά. Στην ανατολική εικονίζεται σύναξη θεών γύρω από τον ένθρονο Δία, ενώ στις άλλες αναπτύσσονται σκηνές μάχης Ελλήνων με Πέρσες και Ελλήνων με άλλους Έλληνες. Στη νότια πλευρά εικονίζεται η νικηφόρα μάχη των Ελλήνων κατά των Περσών στον Μαραθώνα, το 490 π.Χ., στην οποία πρωτοστατούν οι Αθηναίοι.</value>
+  </data>
+  <data name="room4_3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room4_3_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room4_3_text" xml:space="preserve">
+    <value>Το Ερέχθειο είναι ένα σύνθετο οικοδόμημα, που κατασκευάζεται την τελευταία εικοσαετία του 5ου αι. π.Χ. σε σχέδια του Μνησικλή. Αντικαθιστά στη λειτουργία του τον Αρχαίο Ναό της Αθηνάς Πολιάδας, τμήμα του οποίου είχαν καταστρέψει οι Πέρσες εξήντα χρόνια νωρίτερα. Το νέο κτήριο χωρίζεται σε δύο μέρη. Το ανατολικό είναι αφιερωμένο στην Αθηνά και στεγάζει το ξύλινο λατρευτικό της άγαλμα, ενώ το δυτικό, που είναι χαμηλότερο, είναι αφιερωμένο στη λατρεία του Ποσειδώνα-Ερεχθέα, του Ηφαίστου και του Βούτη, αδελφού του Ερεχθέα.
+
+Στην ανάγκη να στεγαστούν όλες αυτές οι λατρείες αλλά και στην ανωμαλία που παρουσιάζει το έδαφος στο σημείο αυτό, οφείλεται και το ιδιόρρυθμο σχήμα που έδωσε ο αρχιτέκτονας στον ναό. Επιπλέον έπρεπε να προστατέψει τα ιερά σημάδια της διαμάχης του Ποσειδώνα και της Αθηνάς για την κυριαρχία της Αθήνας: την ελιά που χάρισε η Αθηνά στην πόλη, το σημάδι της τρίαινας του Ποσειδώνα και την πηγή με το αλμυρό νερό που ανάβλυσε με το χτύπημα του βράχου.</value>
+  </data>
+  <data name="rsz_object_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_object_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_object_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_object_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_object_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_object_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_object_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_object_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_object_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_object_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_room2_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_room2_1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="small_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Η αίθουσα των κλιτύων της Ακρόπολης</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Η Ακρόπολη στις αρχές της ιστορίας της</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Η αίθουσα της αρχαϊκής Ακρόπολης</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Τα άλλα μνημεία του προγράμματος του Περικλή</value>
+  </data>
+  <data name="αιθ2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\αιθ2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="αιθ2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\αιθ2_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="αιθ2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\αιθ2_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="αιθουσα1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\αιθουσα1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="αιθουσα1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\αιθουσα1_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="αιθουσα1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\αιθουσα1_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Εισαγωγικό σημείωμα" xml:space="preserve">
+    <value>Η ακόλουθη εφαρμογή αποσκοπεί στην παρουσίαση του Μουσείου της Ακρόπολης. Απευθύνεται σε όλες τις ηλικίες καθώς υλοποιήθηκε με τέτοιο τρόπο, ώστε ο μέσος χρήστης να βρίσκεται σε θέση να τη χρησιμοποιήσει χωρίς να διαθέτει κάποιο γνωσιακό υπόβαθρο στη χρήση ηλεκτρονικών υπολογιστών.
+Στο αρχικό μενού υπάρχει η επιλογή "Εκκίνηση". Εάν ο χρήστης πατήσει αυτό το κουμπί τότε ξεκινάει η ψηφιακή περιήγηση στο Μουσείο της Ακρόπολης.Στην οθόνη θα εμφανίζονται διάφορες εικόνες από τoυς εκθεσιακούς χώρους του μουσείου.Αν μετακίνήσετε τον κέρσορα του ποντικιού πάνω στο κουμπί "Διάβασε Περισσότερα" τότε θα εμφανιστούν συνοπτικά πληροφορίες για τον αντίστοιχο εκθεσιακό χώρο.
+Για τους μικρότερους ηλικιακά χρήστες υπάρχει στο αρχικό μενού ένα μικρό παιχνίδι μνήμης.
+Για την έξοδο από την εφαρμογή υπάρχει αντίστοιχη επιλογή "Έξοδος" στο αρχικό μενού.
+
+Καραπιπεράκης Εμμανουήλ</value>
+  </data>
+</root>

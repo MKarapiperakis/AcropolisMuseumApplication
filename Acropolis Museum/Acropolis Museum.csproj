@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B5A7340-C762-4E94-8E80-F20E68FE3182}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Acropolis_Museum</RootNamespace>
+    <AssemblyName>Acropolis Museum</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gameroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameroom.Designer.cs">
+      <DependentUpon>gameroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map.Designer.cs">
+      <DependentUpon>map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="room1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room1.Designer.cs">
+      <DependentUpon>room1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="room2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room2.Designer.cs">
+      <DependentUpon>room2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="room2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room2_1.Designer.cs">
+      <DependentUpon>room2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="room2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room2_2.Designer.cs">
+      <DependentUpon>room2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="room3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room3.Designer.cs">
+      <DependentUpon>room3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="room4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room4.Designer.cs">
+      <DependentUpon>room4.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameroom.resx">
+      <DependentUpon>gameroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map.resx">
+      <DependentUpon>map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="room1.resx">
+      <DependentUpon>room1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room2.resx">
+      <DependentUpon>room2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room2_1.resx">
+      <DependentUpon>room2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room2_2.resx">
+      <DependentUpon>room2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room3.resx">
+      <DependentUpon>room3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room4.resx">
+      <DependentUpon>room4.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\κολωνα-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_Μουσειο.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Μουσειο.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\αιθουσα1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\αιθουσα1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\αιθουσα1_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room1_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room1_sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_2_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\object_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_object_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_object_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_object_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_object_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_object_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\αιθ2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\αιθ2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\αιθ2_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2-1-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12333.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_room2_1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_1_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akropoli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akropoli.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room2_2_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_room1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_room2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_room3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lukaj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luke.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_1_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_2_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room3_3_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room4_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room4_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room4_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_room4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_room5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room4_1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room4_2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room4_3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
